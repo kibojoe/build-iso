@@ -78,6 +78,9 @@ adobe-source-sans-pro-fonts
 ttf-droid
 cantarell-fonts
 manjaro-documentation
+xdg-user-dirs
+xdg-utils
+xdg-su
 grub-kibojoe
 release-kibojoe
 base-skel-kibojoe
