@@ -112,7 +112,7 @@ To exit this information page, press "q".
     echo ""
     echo -e "                           JWMConf Configuration Tool"
     echo ""
-    echo -e "                                 ✤ Kibojoe Linux ✤"
+    echo -e "                               ✤ Kibojoe Linux ✤"
     echo -e " ┌─────────────────────────────────────────────────────────────────────────┐"
     echo -e " │     1     Refresh Configuration JWM         2     Refresh Menu JWM      │"
     echo -e " │     3     Check Error JWM                   4     Homepage JWM          │"
