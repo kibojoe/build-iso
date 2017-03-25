@@ -5,7 +5,7 @@
 # Updated 18.02.2017 19:23:01 					 #
 # Version 0.1-1 						 #
 # Name sysclean ; SysClean System Cleanup GNU/Linux 		 #
-# Use chmod +x sysclean ; ~/sysclean 				 #
+# Use chmod +x sysclean ; /usr/bin/ 				 #
 # Link pacli 							 #
 # Based pacli (credits pekman and excalibur1234 - Manjaro Linux) #
 # Adapted Holmes (Manjaro Brasil) 				 #

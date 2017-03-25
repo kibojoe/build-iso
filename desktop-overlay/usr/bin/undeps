@@ -5,7 +5,7 @@
 # Updated 24.11.2010 11:02:02 		      #
 # Version 0.1-1 			      #
 # Name undeps ; Unneeded Dependencies Tool    #
-# Use chmod +x undeps ; ~/undeps              #
+# Use chmod +x undeps ; /usr/bin/             #
 # Link sysclean ; pacli                       #
 # Credits Estêvão Valadão (Arch Linux Brasil) #
 # Adapted Holmes (Manjaro Brasil)             #

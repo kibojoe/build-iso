@@ -5,7 +5,7 @@
 # Updated 18.02.2017 18:23:49 				#
 # Version 0.1-1 					#
 # Name empty_folderclean ; Remove Empty Folders Home    #
-# Use chmod +x empty_folderclean ; ~/empty_folderclean  #
+# Use chmod +x empty_folderclean ; /usr/bin/		#
 # Link sysclean ; pacli 				#
 # Credits Hugo Cisneiros 				#
 # Adaptation Holmes (Manjaro Brasil) 			#
