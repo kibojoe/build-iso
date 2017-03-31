@@ -1,7 +1,9 @@
 #!/bin/bash
 git status
 git add *
-git commit -a -m "update and etc"
-git push origin master
+echo -n "Please enter commit message: "
+read commitmsg
+git commit -a -m "$commitmsg"
+git push
 sleep 2
 clear && kill -9 -$PPID
