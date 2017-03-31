@@ -4,7 +4,7 @@
 # Kibojoe Linux												       #
 # Updated 25.03.2017 15:01:55										       #
 # Version 0.1-1												       #
-# Name kdusm ; KDU Settings Manager									       #
+# Name kdusm ; Kernel Driver Users Settings Manager									       #
 # Use chmod +x kdusm ; /usr/bin/									       #
 # Based pacli (credits pekman and excalibur1234 - Manjaro Linux) and mhwd-kern (credits handy - Manjaro Linux) #
 # Adapted Holmes (Manjaro Brasil)									       #
@@ -51,11 +51,11 @@ NOTE: the rmc option is essential to this command.
 6- WIKI MHWD-KERNEL
 Visit the Manjaro Linux wiki about mhwd-kernel.
 
-7 - USE FREE DRIVERS
+7 - INSTALL FREE DRIVERS
 Install either free drivers (e.g. provided by the Linux community).
 "mhwd -a pci free 0300"
  
-8 - USE NOFREE DRIVERS
+8 - INSTALL NOFREE DRIVERS
 Install nonfree drivers (e.g. provided by hardware manufacturers).
 "mhwd -a pci nonfree 0300"
 
@@ -70,15 +70,15 @@ using the --pci filter in the following example will list detailed information f
 11- WIKI MHWD-DRIVERS
 Visit the Manjaro Linux wiki about mhwd-driver.
 
-12 - SHOW ALL USERS
+12 - LIST ALL USERS
 Displays all users on your system.
 "cut -d: -f1 /etc/passwd"
 
-13 - ADDING A USER
+13 - ADD A USER
 Adding a new user to your system.
 "useradd <name.of.user>"
 
-14 - DELETING A USER
+14 - REMOVE A USER
 Removing a user from your system.
 "userDEL <name.of.user>"
 
@@ -120,12 +120,12 @@ function input {
     echo -e " │    3  *Install a Kernel                 4  *Remove a Kernel             │"
     echo -e " │    5  *Remove a Kernel/Install Other    6   Wiki mhwd-kernel            │"
     echo -e " │-------------------------------------------------------------------------│"
-    echo -e " │    7  *Use Free Drivers                 8  *Use NoFree Drivers          │"
+    echo -e " │    7  *Install Free Drivers             8  *Install NoFree Drivers      │"
     echo -e " │    9   List Installed Drivers          10   List Installed Drivers PCI  │"
     echo -e " │   11   Wiki mhwd-driver 	 					   │"    
     echo -e " │-------------------------------------------------------------------------│"
-    echo -e " │   12   Show All Users		  13   Adding a User	           │"
-    echo -e " │   14   Deleting a user		  15   Wiki users-groups	   │"
+    echo -e " │   12   List All Users		  13   Add a User	           │"
+    echo -e " │   14   Remove a user		          15   Wiki users-groups	   │"
     echo -e " └─────────────────────────────────────────────────────────────────────────┘"
     echo ""    
     echo -e "       ✓ Select a number and press [Enter] ✓ e Exit ✓ i Information"
