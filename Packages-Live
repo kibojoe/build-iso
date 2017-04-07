@@ -1,8 +1,8 @@
 calamares
 manjaro-live-skel
->manjaro manjaro-syslinux-theme
+manjaro-syslinux-theme
 mkinitcpio-nfs-utils
 nbd
 squashfs-tools
->systemd manjaro-live-systemd
+manjaro-live-systemd
 >x86_64 manjaro-efi-utils

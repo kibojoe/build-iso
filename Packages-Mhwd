@@ -28,8 +28,8 @@ opencl-mesa
 open-vm-tools
 pangox-compat
 primus
->systemd bumblebee
->systemd virtualbox-guest-utils
+bumblebee
+virtualbox-guest-utils
 xf86-input-vmmouse
 xf86-video-amdgpu
 xf86-video-ati

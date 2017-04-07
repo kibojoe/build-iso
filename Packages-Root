@@ -64,20 +64,20 @@ shadow
 s-nail
 sudo
 sysfsutils
->systemd acpid
->systemd cpupower
->systemd cronie
->systemd cryptsetup
->systemd device-mapper
->systemd dhcpcd
->systemd haveged
->systemd lvm2
->systemd mdadm
->systemd nfs-utils
->systemd rsync
->systemd systemd-sysvcompat
->systemd tlp
->systemd wpa_supplicant
+acpid
+cpupower
+cronie
+cryptsetup
+device-mapper
+dhcpcd
+haveged
+lvm2
+mdadm
+nfs-utils
+rsync
+systemd-sysvcompat
+tlp
+wpa_supplicant
 tar
 texinfo
 usbutils
