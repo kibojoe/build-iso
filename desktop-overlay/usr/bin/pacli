@@ -99,7 +99,7 @@ SysClean is a script that works with some commands that help clean the system.
 
 15 - USE MANJARO-CHROOT
 "manjaro-chroot -a"
-The manjaro-chroot it recognize and chroot automatically in your system.
+The manjaro-chroot is a little tool to quickly chroot into a second system installed on the host.
 
 16 - FORCE UPDATE SYSTEM
 "sudo pacman -Syu --force"
