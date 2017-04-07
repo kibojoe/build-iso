@@ -2,8 +2,8 @@
 #
 ####################################################
 # Kibojoe Linux					   #
-# Updated 18.02.2017 18:15:14 			   #
-# Version 0.1-5 				   #
+# Updated 07.04.2017 00:15:14 			   #
+# Version 0.1-6 				   #
 # Name pacli ; Pacli Package Manager 		   #
 # Use chmod +x pacli ; /usr/bin/        	   #
 # Credits pekman and excalibur1234 (Manjaro Linux) #
@@ -97,32 +97,36 @@ Attention: Only run this command when no other Pacman instance (e.g. Pacman, Yao
 "undepstui"
 SysClean is a script that works with some commands that help clean the system.
 
-15 - FORCE UPDATE SYSTEM
+15 - USE MANJARO-CHROOT
+"manjaro-chroot -a"
+The manjaro-chroot it recognize and chroot automatically in your system.
+
+16 - FORCE UPDATE SYSTEM
 "sudo pacman -Syu --force"
 This command does the same as UPDATE SYSTEM, but it bypasses file conflict tests and overwrites conflicting files. All files will be overwritten. 
 Attention: This command is meant for experienced users, who know what they are doing!
 
-16 - FORCE INSTALL PACKAGE
+17 - FORCE INSTALL PACKAGE
 "sudo pacman -S --force <PACKAGE NAME>"
 This command does the same as INSTALL PACKAGE, but it forces the installation of <PACKAGE NAME>.
 Attention: This command is meant for experienced users, who know what they are doing!
 
-17 - UPDATE AUR
+18 - UPDATE AUR
 "yaourt -Syua"
 This command does the same as UPDATE SYSTEM, but with one excpetion: It also updates all packages from Arch User Repository (AUR), which have an updated PKGBUILD file.
 Attention: When a new version of an AUR package is available, often the PKGBUILD file is not updated. If you want to install the latest version of an AUR package, (re-)install it with INSTALL FROM AUR. If you want to install the latest version of all AUR packages do "yaourt -Syua --devel".
 
-18 - INSTALL FROM AUR
+19 - INSTALL FROM AUR
 "yaourt -S <PACKAGE NAME>"
 This command does the same as INSTALL PACKAGE. Additionally, Arch User Repository (AUR) packages can be installed.
 Attention: Experienced users can install packages from the AUR without the need to answer questions all the time by using the command "yaourt -S <PACKAGE NAME> --noconfirm". The "--noconfirm" flag is great to quick and dirty installations of AUR packages on non-secure systems. Please keep always in mind that the AUR can contain any sort of package - including malicious and destructive (parts of) packages. Therefore, it is recommended to always check the PKGBUILD and .INSTALL file manually before installing a package from the AUR.
 
-19 - SEARCH + INSTALL FROM AUR
+20 - SEARCH + INSTALL FROM AUR
 "yaourt <PACKAGE NAME>"
 This command searches for <PACKAGE NAME> in all Manjaro repositories and the Arch User Repository (AUR). It searches in all package names and package descriptions. Example: You can search for "web browser" and you will find Firefox and other web browsers. One or multiple search results can be installed on your system.
 If you want to exit this mode without installing any packages, simply press [Enter].
 
-20 - LIST INSTALLED FROM AUR
+21 - LIST INSTALLED FROM AUR
 "pacman -Qem"
 This command lists all installed packages, which are from the AUR or which were manually installed.
 
@@ -166,13 +170,14 @@ function func_a
     echo -e " │    9     Reverse Dependency Tree      10     List Installed Packages    │"
     echo -e " │   11     Downgrade Packages           12     Fix Error Keys             │"
     echo -e " │   13     Fix Error Database Lock      14     System Cleanup GNU/Linux   │"
+    echo -e " │   15     Use manjaro-chroot						   │"
     echo -e " │-------------------------------------------------------------------------│"
-    echo -e " │   15    *Force Update System	         16    *Force Install Package      │"
+    echo -e " │   16    *Force Update System	         17    *Force Install Package      │"
     echo " └─────────────────────────────────────────────────────────────────────────┘"
     echo ""
     echo " ┌─────────────────────────────────────────────────────────────────────────┐"
-    echo -e " │  17     Update AUR                   18     Install from AUR            │"
-    echo -e " │  19     Search + Install from AUR    20     List Installed from AUR     │"
+    echo -e " │  18     Update AUR                   19     Install from AUR            │"
+    echo -e " │  20     Search + Install from AUR    21     List Installed from AUR     │"
     echo " └─────────────────────────────────────────────────────────────────────────┘"
     echo ""
     echo -e "       ✓ Select a number and press [Enter] ✓ e Exit ✓ i Information"
@@ -278,40 +283,48 @@ function func_a
             read        
             ;;        
          15)
+	    echo
+            sudo manjaro-chroot -a
+            echo
+            echo -e "Finished chroot! Return to Pacli press [Enter]"
+            read     
+            ;;
+	 
+	 16)
             echo
             sudo pacman -Syu --force --color always
             echo
             echo -e "Your system is updated in force mode! Return to Pacli press [Enter]"
             read
             ;;
-         16)
+         17)
             echo
             sudo pacman -S --force $(pacman -Slq | fzf --color fg:#0d1426,fg+:#d9cdb3,hl:#0d1426,hl+:#d9cdb3,prompt:#0d1426,info:#c0392b,pointer:#c0392b,spinner:#c0392b --reverse --prompt='Select package to install (toggle selection with TAB) ▶ ') --color always
             echo
             echo -e "Package installation in force mode is finished! Return to Pacli press [Enter]"
             read
             ;;
-         17)
+         18)
             echo
             yaourt -Syua
             echo
             echo -e "Your system is updated! Return to Pacli press [Enter]"
             read     
             ;;
-         18)
+         19)
             echo
             yaourt -S $(cat /tmp/packages | fzf --color fg:#0d1426,fg+:#d9cdb3,hl:#0d1426,hl+:#d9cdb3,prompt:#0d1426,info:#c0392b,pointer:#c0392b,spinner:#c0392b --reverse --prompt='Select a package to install (toggle selection with TAB) ▶ ')
             echo
             echo -e "Installation from AUR finished! Return to Pacli press [Enter]"
             read  
             ;;
-         19)
+         20)
             func_a
 	    echo
 	    echo -e "Yaourt finished! Return to Pacli press [Enter]"
 	    read 
             ;;
-         20)
+         21)
             echo
             pacman -Qm --color always
             echo
