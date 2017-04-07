@@ -4,7 +4,7 @@
 # Kibojoe Linux												       #
 # Updated 25.03.2017 15:01:55										       #
 # Version 0.1-1												       #
-# Name kdusm ; Kernel Driver Users Settings Manager									       #
+# Name kdusm ; Kernel Driver Users Settings Manager							       #
 # Use chmod +x kdusm ; /usr/bin/									       #
 # Based pacli (credits pekman and excalibur1234 - Manjaro Linux) and mhwd-kern (credits handy - Manjaro Linux) #
 # Adapted Holmes (Manjaro Brasil)									       #
@@ -284,7 +284,8 @@ function input {
             read
             ;;
           e)
-            clear && exit
+            echo
+            clear && kill -9 -$PPID
             read
             ;;
           i)
