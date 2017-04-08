@@ -1,5 +1,0 @@
-#!/bin/sh
-jwm -v | while read JWM VERSION OTHERGARBAGE; do
-echo $JWM $VERSION
-exit
-done
