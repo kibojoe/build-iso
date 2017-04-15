@@ -79,6 +79,8 @@ cantarell-fonts
 xdg-user-dirs
 xdg-utils
 xdg-su
+inxi
+smartmontools
 grub-kibojoe
 release-kibojoe
 base-skel-kibojoe
