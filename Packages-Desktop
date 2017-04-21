@@ -69,7 +69,6 @@ deadbeef
 medit
 sakura
 screenfetch
-gparted
 oblogout
 compton
 adobe-source-sans-pro-fonts
@@ -80,6 +79,7 @@ xdg-utils
 xdg-su
 inxi
 smartmontools
+mlocate
 #grub-kibojoe
 grub-quiet-kibojoe
 release-kibojoe
