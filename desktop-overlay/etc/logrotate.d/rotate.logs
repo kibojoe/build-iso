@@ -1,0 +1,19 @@
+## rotate all /var/log files with names ending in log
+/var/log/*log {
+## cycle through these commands once per day
+ daily
+## keep the results of 7 cycles
+ rotate 7
+## use gzip to compress each rotated (copied) log file
+ compress
+## compress the file on the next cycle
+ delaycompress
+## copy the contents of the log file to a new file <name>.log.1
+## & then delete the contents of the original log file
+ copytruncate
+## do nothing to empty files
+ notifempty
+## create no errors if a file is missing
+ missingok
+## after the files have been rotated run the following command
+  } 
