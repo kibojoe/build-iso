@@ -80,6 +80,7 @@ xdg-su
 inxi
 smartmontools
 mlocate
+gparted
 #grub-kibojoe
 grub-quiet-kibojoe
 release-kibojoe
