@@ -1,3 +1,47 @@
+###############################
+### This list default ###
+###############################
+alsa-firmware
+dmidecode
+inxi
+manjaro-hotfixes
+mesa-demos
+mobile-broadband-provider-info
+modemmanager
+>multilib lib32-mesa-demos
+nss-mdns
+numlockx
+powertop
+>systemd alsa-utils
+>systemd avahi
+networkmanager
+>systemd ntp
+>systemd openssh
+>systemd xdg-user-dirs
+>systemd xorg-server
+terminus-font
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+xdg-su
+xdg-utils
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+>systemd xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+xorg-server-utils
+xorg-twm
+xorg-utils
+xorg-xinit
+
+###############################
+### This list JWM ###
+###############################
 alsa-plugins
 manjaro-alsa
 volumeicon-gtk2
@@ -74,14 +118,12 @@ compton
 adobe-source-sans-pro-fonts
 ttf-droid
 cantarell-fonts
-xdg-user-dirs
-xdg-utils
-xdg-su
-inxi
 smartmontools
 mlocate
-gparted
-#grub-kibojoe
+
+###############################
+### This list Kibojoe ###
+###############################
 grub-quiet-kibojoe
 release-kibojoe
 base-skel-kibojoe

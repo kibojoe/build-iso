@@ -23,7 +23,7 @@ gcc-libs
 gettext
 glibc
 grep
-#grub
+grub
 gzip
 inetutils
 intel-ucode
@@ -54,9 +54,9 @@ ntfs-3g
 os-prober
 pacman
 pciutils
-pcmciautils
+>systemd pcmciautils
 perl
-procps-ng
+>systemd procps-ng
 psmisc
 reiserfsprogs
 sed
@@ -64,24 +64,24 @@ shadow
 s-nail
 sudo
 sysfsutils
-acpid
-cpupower
-cronie
-cryptsetup
-device-mapper
-dhcpcd
-haveged
-lvm2
-mdadm
-nfs-utils
-rsync
-systemd-sysvcompat
-tlp
-wpa_supplicant
+>systemd acpid
+>systemd cpupower
+>systemd cronie
+>systemd cryptsetup
+>systemd device-mapper
+>systemd dhcpcd
+>systemd haveged
+>systemd lvm2
+>systemd mdadm
+>systemd nfs-utils
+>systemd rsync
+>systemd systemd-sysvcompat
+>systemd tlp
+>systemd wpa_supplicant
 tar
 texinfo
 usbutils
-util-linux
+>systemd util-linux
 which
 xfsprogs
 zd1211-firmware
