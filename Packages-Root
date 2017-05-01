@@ -23,7 +23,7 @@ gcc-libs
 gettext
 glibc
 grep
-grub
+#grub
 gzip
 inetutils
 intel-ucode
