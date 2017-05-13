@@ -36,6 +36,8 @@ xf86-input-mouse
 xf86-input-void
 xorg-twm
 xorg-xinit
+xorg-server-utils
+xorg-utils
 
 ###############################
 ### This list JWM ###
@@ -122,6 +124,7 @@ mlocate
 ###############################
 ### This list Kibojoe ###
 ###############################
+grub-theme-live-common-kibojoe
 grub-quiet-kibojoe
 release-kibojoe
 base-skel-kibojoe
