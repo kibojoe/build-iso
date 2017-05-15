@@ -11,6 +11,21 @@ modemmanager
 >multilib lib32-mesa-demos
 nss-mdns
 numlockx
+>openrc alsa-utils-openrc
+>openrc avahi-openrc
+>openrc elogind-openrc
+>openrc openrc-settingsd
+>openrc displaymanager-openrc
+>openrc networkmanager-openrc
+>openrc ntp-openrc
+>openrc openssh-openrc
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc udisks2-elogind
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
+>openrc media-player-info-nosystemd
+>openrc libpulse-nosystemd
 powertop
 >systemd alsa-utils
 >systemd avahi
@@ -35,9 +50,9 @@ xf86-input-keyboard
 >openrc xf86-input-libinput-nosystemd
 xf86-input-mouse
 xf86-input-void
-xorg-server-utils
+#xorg-server-utils
 xorg-twm
-xorg-utils
+#xorg-utils
 xorg-xinit
 
 ###############################
@@ -125,7 +140,6 @@ mlocate
 ###############################
 ### This list Kibojoe ###
 ###############################
-grub-theme-live-common-kibojoe
 grub-quiet-kibojoe
 release-kibojoe
 base-skel-kibojoe
