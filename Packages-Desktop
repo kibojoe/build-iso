@@ -140,8 +140,6 @@ mlocate
 ###############################
 ### This list Kibojoe ###
 ###############################
-#grub-kibojoe
-#grub-quiet-kibojoe
 release-kibojoe
 base-skel-kibojoe
 wallpapers-kibojoe
