@@ -1,9 +1,3 @@
-iso-profiles
-==========================
-
-######* profile.conf
-
-~~~
 ##########################################
 ###### use this file in the profile ######
 ##########################################
@@ -49,7 +43,7 @@ iso-profiles
 # disable_openrc=()
 
 # unset defaults to given values
-# addgroups="video,power,disk,storage,optical,network,lp,scanner,wheel"
+# addgroups="video,power,storage,optical,network,lp,scanner,wheel"
 
 # the same workgroup name if samba is used
 # smb_workgroup="Manjaro"
@@ -78,54 +72,3 @@ iso-profiles
 # names must match openrc service names
 # services in enable_openrc array don't need to be listed here
 # enable_openrc_live=('manjaro-live' 'mhwd-live' 'pacman-init' 'mirrors-live')
-~~~
-
-######* New Packagelist tags
-
-~~~
->openrc
->systemd
-
->i686
->x86_64
->multilib
-
->nonfree_default
->nonfree_i686
->nonfree_x86_64
->nonfree_multilib
-
->manjaro
->sonar
-
->basic
->extra
-~~~
-
-######* Packages-Root
-* Contains root image packages
-* ideally no xorg
-
-######* Packages-Desktop
-* Contains the desktop image packages
-* desktop environment packages go here
-
-######* Packages-Mhwd
-* Contains the MHWD driver packages repo
-
-######* Packages-Live
-* Contains packages you only want in live session but not installed on the target system with installer
-* default files are in shared folder and can be symlinked or defined in a real file
-
-######* buildiso can be configured to use custom repos.
-
-* create a user-repos.conf
-
-~~~
-${profile_dir}/user-repos.conf
-~~~
-
-Add only your repos to user-repos.conf!
-
-######* Calamares
-* netgroups definitions go in [this] (https://github.com/manjaro/calamares-netgroups) repo please

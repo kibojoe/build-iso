@@ -1,0 +1,23 @@
+---
+componentName:  manjaro
+
+strings:
+    productName:         Kibojoe Linux
+    shortProductName:    Kibojoe
+    version:             17.04rc5
+    shortVersion:        17.04rc5
+    versionedName:       Kibojoe Linux 17.04rc5 "Portela"
+    shortVersionedName:  Kibojoe 17.04rc5
+    bootloaderEntryName: Kibojoe
+
+images:
+    productLogo:         "squid.png"
+    productIcon:         "logo.png"
+    productWelcome:      "languages.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#292F34"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#292F34"
