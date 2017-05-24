@@ -4,10 +4,10 @@ componentName:  manjaro
 strings:
     productName:         Kibojoe Linux
     shortProductName:    Kibojoe
-    version:             17.04rc5
-    shortVersion:        17.04rc5
-    versionedName:       Kibojoe Linux 17.04rc5 "Portela"
-    shortVersionedName:  Kibojoe 17.04rc5
+    version:             17.04pre1
+    shortVersion:        17.04pre1
+    versionedName:       Kibojoe Linux 17.04pre1 "Portela"
+    shortVersionedName:  Kibojoe 17.04pre1
     bootloaderEntryName: Kibojoe
 
 images:
