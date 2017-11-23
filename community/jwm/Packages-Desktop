@@ -12,7 +12,7 @@ modemmanager
 nss-mdns
 numlockx
 powertop
-alsa-utils
+alsa-utils 
 avahi
 networkmanager
 ntp
@@ -99,8 +99,8 @@ arc-icon-theme
 cbatticon
 epdfview
 feh
-abiword
-gnumeric
+#abiword
+#gnumeric
 hardinfo
 palemoon-bin
 hexchat
