@@ -12,7 +12,7 @@ dnsmasq
 dosfstools
 e2fsprogs
 ecryptfs-utils
->x86_64 efibootmgr
+efibootmgr
 exfat-utils
 f2fs-tools
 file
