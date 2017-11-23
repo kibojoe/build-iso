@@ -1,0 +1,23 @@
+---
+componentName:  manjaro
+
+strings:
+    productName:         Kibojoe Linux
+    shortProductName:    Kibojoe
+    version:             17.09
+    shortVersion:        17.09
+    versionedName:       Kibojoe Linux 17.09rc6 "MUG"
+    shortVersionedName:  Kibojoe 17.09
+    bootloaderEntryName: Kibojoe
+
+images:
+    productLogo:         "squid.png"
+    productIcon:         "logo.png"
+    productWelcome:      "languages.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#292F34"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#292F34"

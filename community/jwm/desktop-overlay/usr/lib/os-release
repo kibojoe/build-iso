@@ -1,0 +1,7 @@
+NAME="Kibojoe Linux"
+ID=kibojoe
+PRETTY_NAME="Kibojoe Linux"
+ANSI_COLOR="1;32"
+HOME_URL="https://kibojoe.org"
+SUPPORT_URL="https://forum.kibojoe.org"
+BUG_REPORT_URL="https://github.com/kibojoe/build-iso/issues"
