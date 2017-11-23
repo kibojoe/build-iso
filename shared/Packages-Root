@@ -76,7 +76,7 @@ mdadm
 nfs-utils
 rsync
 systemd-sysvcompat
-tlp
+#tlp
 wpa_supplicant
 tar
 texinfo
