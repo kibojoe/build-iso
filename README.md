@@ -2,13 +2,13 @@ Kibojoe Linux is a re-spin of Manjaro Linux always maintained collaboratively. I
 
 ✓Stable version
 
-Version: 17.04final (code 2717)
-Codename: Portela
+Version: 17.09final (code 21217)
+Codename: MUG
 
 ✓Testing version
 
-Version: 17.09rc5 (code 21117)
-Codename: MUG
+Version: no information
+Codename: no information
 
 Homepage: http://kibojoe.org - Support: http://forum.kibojoe.org/home
  
