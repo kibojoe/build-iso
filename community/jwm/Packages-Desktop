@@ -95,13 +95,13 @@ xorg-xrandr
 lxinput
 gtk-engine-murrine
 gnome-themes-standard
-arc-icon-theme
+#arc-icon-theme
 cbatticon
 epdfview
 feh
 #abiword
 #gnumeric
-hardinfo
+#hardinfo
 palemoon-bin
 hexchat
 htop
