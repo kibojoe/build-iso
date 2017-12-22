@@ -16,13 +16,13 @@ style "back"
 
 style "time"
 {
-	fg[NORMAL]="#262b2d"
+	fg[NORMAL]="#e5e5e5"
 	font_name="Cantarell 12"
 }
 
 style "prompt"
 {
-	fg[NORMAL]="#262b2d"
+	fg[NORMAL]="#e5e5e5"
 	font_name="Cantarell 12"
 }
 
