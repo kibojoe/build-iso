@@ -116,12 +116,14 @@ cantarell-fonts
 smartmontools
 mlocate
 grsync
+rofi
 
 ###############################
 ### This list Kibojoe ###
 ###############################
 xfce-polkit
 profile-cleaner
+light
 release-kibojoe
 base-skel-kibojoe
 wallpapers-kibojoe
