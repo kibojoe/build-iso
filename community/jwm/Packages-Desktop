@@ -53,7 +53,6 @@ gvfs
 p7zip
 xarchiver
 openresolv
-#blueman
 network-manager-applet
 networkmanager-dispatcher-ntpd
 networkmanager-openvpn
@@ -64,11 +63,9 @@ gnome-keyring
 #polkit-gnome
 dconf
 desktop-file-utils
-#xlogin
 lxdm
 dunst
 jwm
-#clipit
 downgrade
 gmrun 
 i3lock
@@ -95,13 +92,9 @@ xorg-xrandr
 lxinput
 gtk-engine-murrine
 gnome-themes-standard
-#arc-icon-theme
 cbatticon
 epdfview
 feh
-#abiword
-#gnumeric
-#hardinfo
 palemoon-bin
 hexchat
 htop

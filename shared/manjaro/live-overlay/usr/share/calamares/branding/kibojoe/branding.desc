@@ -4,10 +4,10 @@ componentName:  kibojoe
 strings:
     productName:         Kibojoe Linux
     shortProductName:    Kibojoe
-    version:             17.09
-    shortVersion:        17.09
-    versionedName:       Kibojoe Linux 17.09 "MUG"
-    shortVersionedName:  Kibojoe 17.09
+    version:             18.02rc1
+    shortVersion:        18.02rc1
+    versionedName:       Kibojoe Linux 18.02rc1 "MUG"
+    shortVersionedName:  Kibojoe 18.02rc1
     bootloaderEntryName: Kibojoe
 
 images:
