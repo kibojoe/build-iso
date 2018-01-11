@@ -94,7 +94,8 @@ gtk-engine-murrine
 gnome-themes-standard
 cbatticon
 epdfview
-feh
+nitrogen
+gpicview-gtk3
 palemoon-bin
 hexchat
 htop
