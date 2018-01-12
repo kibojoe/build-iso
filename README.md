@@ -7,7 +7,7 @@ Codename: MUG
 
 ✓Testing version
 
-Version: no information
+Version: 17.09final (code 1221217)
 Codename: no information
 
 Homepage: http://kibojoe.org - Support: http://forum.kibojoe.org/home
