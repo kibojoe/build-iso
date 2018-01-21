@@ -63,7 +63,7 @@ gnome-keyring
 #polkit-gnome
 dconf
 desktop-file-utils
-lxdm
+lxdm-gkt3
 dunst
 jwm
 downgrade
@@ -112,6 +112,7 @@ mlocate
 grsync
 rofi
 gsimplecal
+gtk3-classic
 
 ###############################
 ### This list Kibojoe ###
