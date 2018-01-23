@@ -63,7 +63,7 @@ gnome-keyring
 #polkit-gnome
 dconf
 desktop-file-utils
-lxdm-gkt3
+lxdm
 dunst
 jwm
 downgrade
