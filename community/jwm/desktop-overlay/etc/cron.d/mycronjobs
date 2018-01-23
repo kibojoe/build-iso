@@ -1,8 +1,9 @@
 SHELL=/bin/bash
+DISPLAY=:0
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
 MAILTO=root
 */1 * * * * root run-parts /etc/cron.minutely	#Runs a cron job script every minute
-01 * * * * root run-parts /etc/cron.hourly      #Runs a cron job script every hour
+02 * * * * root run-parts /etc/cron.hourly      #Runs a cron job script every two hour
 02 4 * * * root run-parts /etc/cron.daily       #Runs a cron job script every day
 22 4 * * 0 root run-parts /etc/cron.weekly      #Runs a cron job script every week
 42 4 1 * * root run-parts /etc/cron.monthly     #Runs a cron job script every month

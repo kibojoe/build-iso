@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+#####################################################
+# Kibojoe Linux 			            #
+# Version 2018-1 			            #
+# Updated Jan. 2018	 		            #
+# Name conec_upnotifier ; Conection Update Notifier #
+# Use chmod +x conec_upnotifier ; /etc/cron.daily   #
+# Link upnotifier			            #
+# Credits Rorschach			            #
+# Site http://www.nongnu.org/archup/                #
+# Adapted Holmes (Kibojoe Linux)	            #
+# Site http://kibojoe.org                           #
+# License Copyleft                                  #
+#####################################################
+
+user=$(grep -z USER /proc/$(pidof /usr/bin/jwm)/environ | tr '\0' '\n' | sed 's/USER=//')
+
+if [ -z "$(pgrep pacman)" ];then
+        /usr/bin/pacman -Sy > /dev/null
+fi
+XAUTHORITY=/home/$user/.Xauthority /usr/bin/kibojoe/upnotifier --uid $(id -u $user)
