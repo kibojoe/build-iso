@@ -7,7 +7,7 @@ Codename: MUG
 
 ✓Testing version
 
-Version: 18.02rc1 (code 12118)
+Version: 18.02rc2 (code 23118)
 Codename: Vai-Vai
 
 Homepage: http://kibojoe.org - Support: http://forum.kibojoe.org/home
