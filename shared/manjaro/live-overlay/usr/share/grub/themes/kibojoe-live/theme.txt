@@ -38,7 +38,7 @@ terminal-border: "0"
     item_icon_space = 20
     item_spacing = 5
     item_font =  "Terminus 16"
-    item_color = "#cccccc"
+    item_color = "#ffffff"
     #item_color = "#FFA2A2"
     selected_item_font = "Terminus 16"
     selected_item_color = "#0077cc"

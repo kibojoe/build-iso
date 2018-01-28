@@ -16,7 +16,4 @@
 
 user=$(grep -z USER /proc/$(pidof /usr/bin/jwm)/environ | tr '\0' '\n' | sed 's/USER=//')
 
-if [ -z "$(pgrep pacman)" ];then
-        /usr/bin/pacman -Sy > /dev/null
-fi
 XAUTHORITY=/home/$user/.Xauthority /usr/bin/kibojoe/upnotifier --uid $(id -u $user)
