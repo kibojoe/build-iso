@@ -20,7 +20,6 @@ openssh
 xdg-user-dirs
 xorg-server
 ttf-inconsolata
-ttf-indic-otf
 ttf-liberation
 xdg-su
 xdg-utils
@@ -85,7 +84,6 @@ lshw
 arandr
 xorg-xrandr
 lxinput
-gtk-engine-murrine
 cbatticon
 epdfview
 nitrogen
