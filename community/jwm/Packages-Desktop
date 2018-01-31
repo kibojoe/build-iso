@@ -19,10 +19,6 @@ ntp
 openssh
 xdg-user-dirs
 xorg-server
-terminus-font
-ttf-bitstream-vera
-ttf-dejavu
-ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
@@ -60,7 +56,6 @@ networkmanager-vpnc
 json-c
 gksu
 gnome-keyring
-#polkit-gnome
 dconf
 desktop-file-utils
 lxdm
@@ -91,7 +86,6 @@ arandr
 xorg-xrandr
 lxinput
 gtk-engine-murrine
-gnome-themes-standard
 cbatticon
 epdfview
 nitrogen
@@ -105,7 +99,6 @@ deadbeef
 medit
 sakura
 screenfetch
-adobe-source-sans-pro-fonts
 cantarell-fonts
 smartmontools
 mlocate

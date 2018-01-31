@@ -2,13 +2,11 @@ Kibojoe Linux is a re-spin of Manjaro Linux always maintained collaboratively. I
 
 ✓Stable version
 
-Version: 17.09final (code 21217)
-Codename: MUG
+Version: 17.09final (code 21217) - Codename: MUG
 
 ✓Testing version
 
-Version: 18.02rc2 (code 23118)
-Codename: Vai-Vai
+Version: 18.02rc2 (code 23118) - Codename: Vai-Vai
 
 Homepage: http://kibojoe.org - Support: http://forum.kibojoe.org/home
  

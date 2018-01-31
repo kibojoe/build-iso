@@ -1,4 +1,4 @@
-#!/bin/bash
+##!/bin/bash
 git status
 git add *
 echo -n "Please enter commit message: "
