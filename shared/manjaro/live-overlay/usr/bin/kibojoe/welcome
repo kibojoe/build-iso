@@ -1,0 +1,57 @@
+#!/bin/bash
+#
+#################################################
+# Kibojoe Linux					#
+# Version 2018-1	 			#
+# Updated Jan. 2018	 			#
+# Name welcomelive ; Welcome Live Kibojoe Linux #
+# Use chmod +x welcomelie ; ~/.jwm	   	#
+# Credits Holmes (Kibojoe Linux)         	#
+# Site http://kibojoe.org                       #
+# License Copyleft 			        #
+#################################################
+
+while true; do
+    clear
+    
+echo -e "                              Kibojoe Linux - Manjaro Linux re-spin with Joe's Window Manager (JWM)"
+    echo ""
+    echo -e "                                                   Minimal, Fast and Elegant!"    
+echo -e " ┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐"
+echo -e " │ Hello, you are using the Live of the Kibojoe Linux!									       │"
+echo -e " │															       │"
+echo -e " │															       │"
+echo -e " │ This Live operating system allows you to test Kibojoe Linux without making any changes to your computer's hard drive. Among │"
+echo -e " │ other things, it can be used to check hardware compatibility (your network connection, monitor, keyboard, etc.), to perform │"
+echo -e " │ system recovery or to work anonymously on a public computer.								       │"
+echo -e " │															       │"
+echo -e " │ Your username is kibojoe and your password is kibojoe. You already have sudo permissions!                                   │"
+echo -e " │															       │"
+echo -e " │ To access your network use 'NMTUI' in Menu > CLI Utilities. Very easy to use!					       │"
+echo -e " │										                                               │"
+echo -e " │ To install on your PC use 'Install Kibojoe Linux' in Menu > Applications > System. Our Calamares Installer is very easy!    │"
+echo -e " │															       │"
+echo -e " │ By default (Live and Real installation) AUR, multimedia and printer support are not installed. We can install easily!       │"
+echo -e " │                                                                                                                             │"
+echo -e " │ It is important that you read 'User Orientation Guide' in Menu > Support > Kibojoe. In this document you will find a lot of │"
+echo -e " │ relevants informations,  for example: • install AUR,  multimedia and printer support; •  use shortcuts keys; • know the CLI │"
+echo -e " │ Utilities; • configure applications, • know some JWM settings; • support and importants sites; etc. It has much more!       │"
+echo -e " └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘"
+echo ""
+echo -e "                   ✓ Thank you for trying Kibojoe Linux! To leave the WelcomeLive type 'e' and press [Enter]"
+echo ""
+    read choix
+    case $choix in
+          e)
+            echo
+            clear && kill -9 -$PPID
+            read
+            ;;    
+	  *)
+            echo "Wrong option! Wait and try again..."
+            echo
+            sleep 2
+	    clear
+            ;;    
+    esac
+done
