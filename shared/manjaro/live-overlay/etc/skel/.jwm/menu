@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- The root menu. -->
+      <RootMenu onroot="3">
+	        <Program label="Run">gmrun</Program>
+        	<Program label="Locate">sakura -c 80 -r 27 -T FLocate -e "bash -c '/usr/bin/kibojoe/flocate;exec bash'"</Program>
+        	<Program label="Terminal">sakura -c 80 -r 27</Program>
+        	<Program label="File Manager">pcmanfm</Program>
+        	<Program label="Web Browser">palemoon</Program>
+		<Separator/>
+		<Menu label="Applications">
+			<Include>exec: xdgmenumaker -n -f jwm</Include>
+		</Menu>
+		<Menu label="CLI Utilities">   
+	        	<Program label="BFUSBTool">sakura -c 80 -r 27 -T BFUSBTool -e "bash -c '/usr/bin/kibojoe/bfusb;exec bash'"</Program>
+	        	<Program label="FLocate">sakura -c 80 -r 27 -T FLocate -e "bash -c '/usr/bin/kibojoe/flocate;exec bash'"</Program>
+			<Program label="IS">sakura -c 80 -r 27 -T IS -e "bash -c '/usr/bin/kibojoe/is;exec bash'"</Program>
+			<Program label="JWMConf">sakura -c 80 -r 27 -T JWMConf -e "bash -c '/usr/bin/kibojoe/jwmconf;exec bash'"</Program>        	
+                	<Program label="KDUSM">sakura -c 80 -r 27 -T KDUSM -e "bash -c '/usr/bin/kibojoe/kdusm;exec bash'"</Program>		
+                	<Program label="KJWMPostI">sakura -c 80 -r 27 -T KJWMPostI -e "bash -c '/usr/bin/kibojoe/kjwmpost;exec bash'"</Program>
+                	<Program label="NMTUI">sakura -T NMTUI -e "bash -c 'nmtui'"</Program>
+			<Program label="Pacli-SysClean">sakura -c 80 -r 27 -T Pacli-SysClean -e "bash -c '/usr/bin/kibojoe/pacli;exec bash'"</Program>                     	
+        		<Program label="TouchMon">sakura -c 80 -r 27 -T TouchMon -e "bash -c '/usr/bin/kibojoe/touchmon;exec bash'"</Program>                
+		</Menu>
+        	<Menu label="Enable Session">   
+	        	<Program label="Battery">cbatticon -u 120 -i standard -c "systemctl suspend" -l 20 -r 5</Program>
+			<Program label="Conky">conky -c ~/.conky/conkyrc_all</Program>
+			<Program label="Network">nm-applet</Program>
+			<Program label="Volume">volumeicon</Program>                
+		</Menu>
+        	<Menu label="Places">   
+	        	<Program label="Home">pcmanfm ~/</Program>
+        		<Program label="Root">gksu pcmanfm /</Program>
+      			<Separator/>
+	       		<Program label="Applications">pcmanfm menu://applications/</Program>
+               		<Program label="Devices">pcmanfm computer:///</Program>
+               		<Program label="Recent File">pcmanfm recent:///</Program>
+               		<Program label="Trash">pcmanfm trash:///</Program>
+		</Menu>
+		<Menu label="Screenshot">
+			<Program label="Active Window Delay">notify-send 'Selection will be saved in ~/Downloads in 5s' &amp; scrot -ud 5 -e 'mv $f ~/Downloads' &amp;&amp; sleep 1 &amp;&amp; notify-send 'Screenshot has been saved in ~/Downloads'</Program>            
+			<Program label="Active Window">scrot -ue 'mv $f ~/Downloads' &amp;&amp; sleep 1 &amp;&amp; notify-send 'Screenshot has been saved in ~/Downloads'</Program>
+        		<Program label="Full Screen">scrot -e 'mv $f ~/Downloads' &amp;&amp; sleep 1 &amp;&amp; notify-send 'Screenshot has been saved in ~/Downloads'</Program>
+        		<Program label="Select Area">notify-send 'Selection will be saved in ~/Downloads' &amp; scrot -se 'mv $f ~/Downloads' &amp;&amp; sleep 1 &amp;&amp; notify-send 'Screenshot has been saved in ~/Downloads'</Program>
+		</Menu>
+		<Separator/>
+		<Menu label="Support">
+			<Menu label="Kibojoe">
+                		<Program label="User Orientation Guide">epdfview /usr/share/doc/kibojoe/User_Orientation_Guide.pdf</Program>
+        			<Separator/>	
+                		<Program label="ArchLinux Wiki">$BROWSER https://wiki.archlinux.org/</Program>	  
+                		<Program label="Kibojoe Forum">$BROWSER http://forum.kibojoe.org/home</Program>
+				<Program label="Manjaro Forum">$BROWSER https://forum.manjaro.org/</Program>  
+				<Program label="Manjaro Wiki">$BROWSER https://wiki.manjaro.org/index.php?title=Main_Page</Program>
+			</Menu>
+			<Menu label="JWM">
+        			<Program label="JWM Project">$BROWSER http://joewing.net/projects/jwm/index.shtml</Program>        
+        			<Program label="JWM Configuration">$BROWSER http://joewing.net/projects/jwm/config.shtml</Program>
+				<Program label="JWM Wiki ArchLinux">$BROWSER https://wiki.archlinux.org/index.php/JWM</Program>
+			</Menu>
+		</Menu>
+        	<Separator/>
+		<Program label="Leave">/usr/bin/kibojoe/leave_jwm</Program>        
+	</RootMenu>
+</JWM>

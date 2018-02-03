@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- Key bindings. -->
+	<!-- Alone key. -->
+    <Key key="Up">up</Key>
+    <Key key="Down">down</Key>
+    <Key key="Right">right</Key>
+    <Key key="Left">left</Key>
+    <Key key="h">left</Key>
+    <Key key="j">down</Key>
+    <Key key="k">up</Key>
+    <Key key="l">right</Key>
+    <Key key="Return">select</Key>
+    <Key key="Escape">escape</Key>
+
+    <!-- Key window. -->
+	<!-- Alt key. -->
+    <Key mask="A" key="Tab">nextstacked</Key>
+    <Key mask="A" key="F4">close</Key>
+    <Key mask="A" key="#">desktop#</Key>
+    <Key mask="A" key="F2">window</Key>
+    <Key mask="A" key="F10">maximize</Key>
+    <Key mask="A" key="F11">minimize</Key>
+	<!-- Ctrl (Control) +Alt key. -->
+    <Key mask="CA" key="Right">rdesktop</Key>
+    <Key mask="CA" key="Left">ldesktop</Key>
+	<!-- Shift+Alt Key. -->
+    <Key mask="SA" key="Right">sendr</Key>
+    <Key mask="SA" key="Left">sendl</Key>
+
+    <!-- Key applications. -->
+	<!-- Windows (Super) key. -->
+    <Key mask="4" key="b">exec:palemoon</Key>
+    <Key mask="4" key="x">exec:hexchat</Key>
+    <Key mask="4" key="f">exec:pcmanfm</Key>
+    <Key mask="4" key="r">exec:gmrun</Key>
+    <Key mask="4" key="t">exec:sakura -c 80 -r 27</Key>
+    <Key mask="4" key="d">showdesktop</Key>
+    <Key mask="4" key="m">exec:deadbeef</Key>
+    
+    <!-- Key system. -->
+	<!-- Windows (Super) key. -->
+    <Key mask="4" key="F1">root:3</Key>
+    <Key mask="4" key="c">exec:sakura -c 80 -r 27 -T FLocate -e "bash -c '/usr/bin/kibojoe/flocate;exec bash'"</Key>
+    <Key mask="4" key="p">exec:sakura -c 80 -r 27 -T Pacli-SysClean -e "bash -c '/usr/bin/kibojoe/pacli;exec bash'"</Key>
+    <Key mask="4" key="j">exec:sakura -c 80 -r 27 -T JWMConf -e "bash -c '/usr/bin/kibojoe/jwmconf;exec bash'"</Key>
+    <Key mask="4" key="e">exec:sakura -c 80 -r 27 -T KJWMPostI -e "bash -c '/usr/bin/kibojoe/kjwmpost;exec bash'"</Key>
+    <Key mask="4" key="o">exec:sakura -c 80 -r 27 -T TouchMon -e "bash -c '/usr/bin/kibojoe/touchmon;exec bash'"</Key>
+    <Key mask="4" key="i">exec:sakura -c 80 -r 27 -T IS -e "bash -c '/usr/bin/kibojoe/is;exec bash'"</Key>
+    <Key mask="4" key="k">exec:sakura -c 80 -r 27 -T KDUSM -e "bash -c '/usr/bin/kibojoe/kdusm;exec bash'"</Key>
+    <Key mask="4" key="s">exec:sakura -c 80 -r 27 -T BFUSBTool -e "bash -c '/usr/bin/kibojoe/bfusb;exec bash'"</Key>
+    <Key mask="4" key="n">exec:sakura -T NMTUI -e "bash -c 'nmtui'"</Key>
+    <Key mask="4" key="l">exec:i3lock -c 444444</Key>
+    <Key mask="4" key="u">exec:jwm -restart</Key>
+    <Key mask="4" key="w">exec:jwm -reload</Key>
+	<!-- Ctrl (Control) key. -->
+    <Key mask="C" key="l">exec:/usr/bin/kibojoe/leave_jwm</Key>
+
+    <!-- Key sound. -->
+	<!-- Windows (Super) key. -->
+    <Key mask="4" key="Next">exec:/usr/bin/pulseaudio-ctl down 5</Key>
+    <Key mask="4" key="Prior">exec:/usr/bin/pulseaudio-ctl up 5</Key>
+    <Key mask="4" key="0">exec:/usr/bin/pulseaudio-ctl mute</Key>
+    
+    <!-- Key monitor brightness. -->
+	<!-- Ctrl (Control) key. -->
+    <Key mask="C" key="Next">exec:light -U 5; notify-send 'Brightness down 5 %'</Key>
+    <Key mask="C" key="Prior">exec:light -A 5; notify-send 'Brightness up 5 %'</Key>
+
+    <!-- Key toggle. -->
+	<!-- Windows (Super) key. -->
+    <Key mask="4" key="Up">maxtop</Key>
+    <Key mask="4" key="Down">maxbottom</Key>
+    <Key mask="4" key="Left">maxleft</Key>
+    <Key mask="4" key="Right">maxright</Key>
+
+    <!-- Key general. -->
+	<!-- Windows (Super) key. -->
+    <Key mask="4" key="g">exec:epdfview /usr/share/doc/kibojoe/User_Orientation_Guide.pdf</Key>
+	<!-- Alone key. -->
+    <Key key="Print">exec:scrot -e 'mv $f ~/Downloads' &amp;&amp; sleep 1 &amp;&amp; notify-send 'Screenshot has been saved in ~/Downloads'</Key>
+    
+</JWM>

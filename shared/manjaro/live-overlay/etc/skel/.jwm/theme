@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<JWM>
+
+    <!-- Visual Style Window. -->
+    <WindowStyle decorations="flat">
+        <Font align="center">Cantarell-10:antialias=true:encoding=utf8</Font>
+        <Width>2</Width>
+        <Height>22</Height>
+        <Corner>0</Corner>
+        <Foreground>#e5e5e5</Foreground>
+        <Background>#444444</Background>
+        <Outline>#444444</Outline>‮
+        <Active>
+            <Foreground>#e5e5e5</Foreground>
+            <Background>#444444</Background>
+            <Outline>#444444</Outline>
+        </Active>
+    </WindowStyle>
+
+    <!-- Visual Style Window Button. -->
+         <ButtonClose>/usr/share/icons/kibojoe/window-close.svg</ButtonClose>
+         <ButtonMax>/usr/share/icons/kibojoe/window-fullscreen.svg</ButtonMax>
+         <ButtonMaxActive>/usr/share/icons/kibojoe/window-restore.svg</ButtonMaxActive>
+         <ButtonMin>/usr/share/icons/kibojoe/window-minimize.svg</ButtonMin>
+
+    <!-- Visual Style Menu. -->
+    <MenuStyle decorations="flat">
+        <Font>Cantarell-10:antialias=true:encoding=utf8</Font>
+        <Foreground>#e5e5e5</Foreground>
+        <Background>#444444</Background>
+	<Outline>#444444</Outline>
+        <Active>
+            <Foreground>#444444</Foreground>
+            <Background>#6d6d6d</Background>
+        </Active>
+    </MenuStyle>
+
+    <!-- Visual Style Tray. -->
+    <TrayStyle decorations="flat">
+        <Font>Cantarell-11:antialias=true:encoding=utf8</Font>
+        <Background>#444444</Background>
+        <Foreground>#e5e5e5</Foreground>
+        <Outline>#444444</Outline>
+        <Active>
+            <Foreground>#444444</Foreground>
+            <Background>#d2d2d2</Background>
+        </Active>
+    </TrayStyle>
+
+    <!-- Visual Style Pager. -->
+    <PagerStyle>
+        <Outline>#444444</Outline>
+        <Font>Cantarell-8:antialias=true:encoding=utf8</Font>
+        <Text>#e5e5e5</Text>
+        <Foreground>#787878</Foreground>
+        <Background>#787878</Background>
+        <Active>
+            <Foreground>#a5a5a5</Foreground>
+            <Background>#a5a5a5</Background>
+        </Active>
+    </PagerStyle>
+
+    <!-- Visual Style Pop. -->
+    <PopupStyle>
+        <Font>Cantarell-10:antialias=true:encoding=utf8</Font>
+        <Outline>#444444</Outline>
+        <Foreground>#e5e5e5</Foreground>
+        <Background>#444444</Background>
+    </PopupStyle>
+
+    <!-- Visual Style Clock. -->
+    <ClockStyle>
+        <Font>Cantarell-10:antialias=true:encoding=utf8</Font>
+        <Foreground>#e5e5e5</Foreground>
+    </ClockStyle>
+
+</JWM>

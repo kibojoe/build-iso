@@ -32,6 +32,9 @@ xf86-input-void
 xorg-twm
 xorg-xinit
 xorg-xkill
+xorg-server
+xorg-xhost
+xorg-xprop
 
 ###############################
 ### This list JWM ###
