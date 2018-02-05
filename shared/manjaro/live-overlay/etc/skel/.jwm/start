@@ -4,7 +4,7 @@
     <!-- Startup for program. -->
     <StartupCommand>nitrogen --restore &amp;</StartupCommand>
     <StartupCommand>sleep 2s &amp;&amp; notify-send "Welcome to Kibojoe Linux!" &amp;</StartupCommand>
-    <StartupCommand>sleep 3s &amp;&amp; /usr/bin/kibojoe/welcome &amp;</StartupCommand>
+    <StartupCommand>sleep 3s &amp;&amp; sakura -c 130 -r 28 -T WelcomeLive -e "bash -c '/usr/bin/kibojoe/welcome;exec bash'" &amp;</StartupCommand>
     <StartupCommand>sleep 4s &amp;&amp; /usr/lib/xfce-polkit/xfce-polkit &amp;</StartupCommand>
     <StartupCommand>sleep 5s &amp;&amp; numlockx &amp;</StartupCommand>
     <StartupCommand>sleep 6s &amp;&amp; xautolock -time 30 -locker 'i3lock -c 444444' &amp;</StartupCommand>

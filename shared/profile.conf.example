@@ -1,6 +1,4 @@
-##########################################
-###### use this file in the profile ######
-##########################################
+# USE THIS FILE IN THE PROFILE
 
 # use multilib packages; x86_64 only
 # multilib="true"
@@ -8,7 +6,7 @@
 # use extra packages as defined in pkglist to activate a full profile
 # extra="false"
 
-################ install ################
+# INSTALL
 
 # default displaymanager: none
 # supported; lightdm, sddm, gdm, lxdm, mdm
@@ -48,7 +46,7 @@
 # the same workgroup name if samba is used
 # smb_workgroup="Manjaro"
 
-################# live-session #################
+# LIVE SESSION
 
 # unset defaults to given value
 # hostname="manjaro"
