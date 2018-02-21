@@ -33,11 +33,13 @@ xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
 xorg-server
-xorg-twm
-xorg-xhost
+#xorg-twm
+#xorg-xhost
 xorg-xinit
-xorg-xkill
+#xorg-xkill
 xorg-xprop
+xorg-xsetroot
+xdg-user-dirs-gtk
 
 # LIST JWM
 adobe-source-sans-pro-fonts
@@ -73,7 +75,6 @@ libimobiledevice
 lm_sensors
 lshw
 lxappearance-gtk3
-lxdm
 lxinput
 manjaro-alsa
 manjaro-pulse
@@ -83,6 +84,7 @@ ncdu
 network-manager-applet
 networkmanager-dispatcher-ntpd
 networkmanager-openvpn
+networkmanager-pptp
 networkmanager-vpnc
 nitrogen
 openresolv
@@ -115,6 +117,7 @@ xsensors
 base-skel-kibojoe
 documentation-kibojoe
 light
+lxdm-gtk3
 profile-cleaner
 release-kibojoe
 scripts-kibojoe
