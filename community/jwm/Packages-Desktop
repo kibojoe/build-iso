@@ -75,6 +75,7 @@ libimobiledevice
 lm_sensors
 lshw
 lxappearance-gtk3
+lxdm
 lxinput
 manjaro-alsa
 manjaro-pulse
@@ -117,7 +118,6 @@ xsensors
 base-skel-kibojoe
 documentation-kibojoe
 light
-lxdm-gtk3
 profile-cleaner
 release-kibojoe
 scripts-kibojoe

@@ -11,7 +11,7 @@
   <Spacer width="5"/>
        <Clock format="%X on %m/%d">exec:pgrep gsimplecal > /dev/null &amp;&amp; killall gsimplecal || gsimplecal</Clock>
   <Spacer width="5"/>
-  <TrayButton label="kibojoe" popup="System User"></TrayButton>
+  <TrayButton label="kibojoe" popup="User System"></TrayButton>
   <Spacer width="5"/>
       <TrayButton icon="/usr/share/icons/kibojoe/leave.png" popup="Leave">exec:/usr/bin/kibojoe/leave_jwm</TrayButton>
   </Tray>
