@@ -1,0 +1,23 @@
+---
+componentName:  kibojoe
+
+strings:
+    productName:         Kibojoe Linux
+    shortProductName:    Kibojoe
+    version:             18.02rc3
+    shortVersion:        18.02rc3
+    versionedName:       Kibojoe Linux 18.02rc3 "Vai-Vai"
+    shortVersionedName:  Kibojoe 18.02rc3
+    bootloaderEntryName: Kibojoe
+
+images:
+    productLogo:         "squid.png"
+    productIcon:         "logo.png"
+    productWelcome:      "languages.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#292F34"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#292F34"

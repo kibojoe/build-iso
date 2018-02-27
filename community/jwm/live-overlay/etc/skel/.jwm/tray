@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<JWM>
+
+  <!-- Tray of the environment. -->
+  <Tray decorations="flat" layout="horizontal" halign="fixed" height="28" valign="bottom">
+       <TrayButton icon="/usr/share/icons/kibojoe/start.png" popup="Start">root:3</TrayButton>
+  <Spacer width="5"/>     
+  <Pager/>
+       <TaskList maxwidth="110" border="false"/>
+       <Dock spacing="3"/>
+  <Spacer width="5"/>
+       <Clock format="%X on %m/%d">exec:pgrep gsimplecal > /dev/null &amp;&amp; killall gsimplecal || gsimplecal</Clock>
+  <Spacer width="5"/>
+  <TrayButton label="kibojoe" popup="User System"></TrayButton>
+  <Spacer width="5"/>
+      <TrayButton icon="/usr/share/icons/kibojoe/leave.png" popup="Leave">exec:/usr/bin/kibojoe/leave_jwm</TrayButton>
+  </Tray>
+
+</JWM>
+
+

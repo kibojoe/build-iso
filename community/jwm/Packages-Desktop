@@ -1,15 +1,15 @@
 # LIST DEFAULT
 alsa-firmware
 alsa-utils 
-avahi
+#avahi
 dmidecode
 inxi
 manjaro-hotfixes
-mesa-demos
-mobile-broadband-provider-info
-modemmanager
->multilib lib32-flex
->multilib lib32-mesa-demos
+#mesa-demos
+#mobile-broadband-provider-info
+#modemmanager
+#>multilib lib32-flex
+#>multilib lib32-mesa-demos
 networkmanager
 nss-mdns
 ntp
@@ -18,8 +18,8 @@ openssh
 powertop
 terminus-font
 ttf-bitstream-vera
-ttf-dejavu
-ttf-droid
+#ttf-dejavu
+#ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
@@ -42,7 +42,7 @@ xorg-xsetroot
 xdg-user-dirs-gtk
 
 # LIST JWM
-adobe-source-sans-pro-fonts
+#adobe-source-sans-pro-fonts
 alsa-plugins
 arandr
 cantarell-fonts
@@ -71,7 +71,7 @@ i3lock
 json-c
 jwm
 l3afpad
-libimobiledevice
+#libimobiledevice
 lm_sensors
 lshw
 lxappearance-gtk3
@@ -83,10 +83,8 @@ medit
 mlocate
 ncdu
 network-manager-applet
-networkmanager-dispatcher-ntpd
 networkmanager-openvpn
 networkmanager-pptp
-networkmanager-vpnc
 nitrogen
 openresolv
 p7zip
@@ -96,7 +94,7 @@ pcmanfm
 perl-file-mimeinfo
 preload
 ps_mem
-pulseaudio-bluetooth
+#pulseaudio-bluetooth
 pulseaudio-ctl
 python2-xdg
 qt5-styleplugins 
