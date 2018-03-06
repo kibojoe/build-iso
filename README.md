@@ -6,7 +6,7 @@ Version: 17.09final (code 21217) - Codename: MUG
 
 ✓Testing version
 
-Version: 18.02rc2 (code 23118) - Codename: Vai-Vai
+Version: 18.02rc4 (code 6318) - Codename: Vai-Vai
 
 Homepage: http://kibojoe.org - Support: http://forum.kibojoe.org/home
  
