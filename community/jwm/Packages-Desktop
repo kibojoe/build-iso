@@ -75,7 +75,7 @@ l3afpad
 lm_sensors
 lshw
 lxappearance-gtk3
-lxdm
+lxdm-gtk3
 lxinput
 manjaro-alsa
 manjaro-pulse
