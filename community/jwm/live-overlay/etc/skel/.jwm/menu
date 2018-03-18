@@ -4,7 +4,7 @@
     <!-- The root menu. -->
       <RootMenu onroot="3">
 	        <Program label="Run">gmrun</Program>
-        	<Program label="Locate">sakura -c 80 -r 27 -T FLocate -e "bash -c '/usr/bin/kibojoe/flocate;exec bash'"</Program>
+        	<Program label="Locate">sakura -c 80 -r 22 -T FLocate -e "bash -c '/usr/bin/kibojoe/flocate;exec bash'"</Program>
         	<Program label="Terminal">sakura -c 80 -r 27</Program>
         	<Program label="File Manager">pcmanfm</Program>
         	<Program label="Web Browser">palemoon</Program>
@@ -12,16 +12,17 @@
 		<Menu label="Applications">
 			<Include>exec: xdgmenumaker -n -f jwm</Include>
 		</Menu>
-		<Menu label="CLI Utilities">   
-	        	<Program label="BFUSBTool">sakura -c 80 -r 27 -T BFUSBTool -e "bash -c '/usr/bin/kibojoe/bfusb;exec bash'"</Program>
-	        	<Program label="FLocate">sakura -c 80 -r 27 -T FLocate -e "bash -c '/usr/bin/kibojoe/flocate;exec bash'"</Program>
+		<Menu label="CLI Utilities">
+			<Program label="WelcomeLive">sakura -c 130 -r 28 -T WelcomeLive -e "bash -c '/usr/bin/kibojoe/welcome;exec bash'"</Program>                        
+			<Program label="BFUSBTool">sakura -c 80 -r 16 -T BFUSBTool -e "bash -c '/usr/bin/kibojoe/bfusb;exec bash'"</Program>
+	        	<Program label="FLocate">sakura -c 80 -r 22 -T FLocate -e "bash -c '/usr/bin/kibojoe/flocate;exec bash'"</Program>
 			<Program label="IS">sakura -c 80 -r 27 -T IS -e "bash -c '/usr/bin/kibojoe/is;exec bash'"</Program>
 			<Program label="JWMConf">sakura -c 80 -r 27 -T JWMConf -e "bash -c '/usr/bin/kibojoe/jwmconf;exec bash'"</Program>        	
-                	<Program label="KDUSM">sakura -c 80 -r 27 -T KDUSM -e "bash -c '/usr/bin/kibojoe/kdusm;exec bash'"</Program>		
-                	<Program label="KJWMPostI">sakura -c 80 -r 27 -T KJWMPostI -e "bash -c '/usr/bin/kibojoe/kjwmpost;exec bash'"</Program>
+                	<Program label="KDUSM">sakura -c 80 -r 21 -T KDUSM -e "bash -c '/usr/bin/kibojoe/kdusm;exec bash'"</Program>		
+                	<Program label="KJWMPostI">sakura -c 80 -r 23 -T KJWMPostI -e "bash -c '/usr/bin/kibojoe/kjwmpost;exec bash'"</Program>
                 	<Program label="NMTUI">sakura -T NMTUI -e "bash -c 'nmtui'"</Program>
-			<Program label="Pacli-SysClean">sakura -c 80 -r 27 -T Pacli-SysClean -e "bash -c '/usr/bin/kibojoe/pacli;exec bash'"</Program>                     	
-        		<Program label="TouchMon">sakura -c 80 -r 27 -T TouchMon -e "bash -c '/usr/bin/kibojoe/touchmon;exec bash'"</Program>                
+			<Program label="Pacli-SysClean">sakura -c 80 -r 25 -T Pacli-SysClean -e "bash -c '/usr/bin/kibojoe/pacli;exec bash'"</Program>                     	
+        		<Program label="TouchMon">sakura -c 80 -r 25 -T TouchMon -e "bash -c '/usr/bin/kibojoe/touchmon;exec bash'"</Program>               
 		</Menu>
         	<Menu label="Enable Session">   
 	        	<Program label="Battery">cbatticon -u 120 -i standard -c "systemctl suspend" -l 20 -r 5</Program>
