@@ -6,17 +6,17 @@
   <Spacer/>
       <TrayButton icon="/usr/share/icons/kibojoe/pcmanfm.svg" popup="PCManFM File Manager">exec:pcmanfm</TrayButton>
   <Spacer width="5"/>
-      <TrayButton icon="/usr/share/icons/kibojoe/terminal.svg" popup="LXTerminal Terminal">exec:lxterminal</TrayButton>
+      <TrayButton icon="/usr/share/icons/kibojoe/terminal.svg" popup="Sakura Terminal">exec:sakura -c 120 -r 27</TrayButton>
   <Spacer width="5"/>
       <TrayButton icon="/usr/share/icons/kibojoe/medit.svg" popup="Medit Editor">exec:medit</TrayButton>
   <Spacer width="5"/>
-      <TrayButton icon="/usr/share/icons/kibojoe/pacli.svg" popup=" Pacli Package Manager">exec:lxterminal --geometry=77x25 --title=Pacli-SysClean --command=/usr/bin/kibojoe/pacli</TrayButton>
+      <TrayButton icon="/usr/share/icons/kibojoe/pacli.svg" popup=" Pacli Package Manager">exec:sakura -c 80 -r 25 -T Pacli-SysClean -e "bash -c '/usr/bin/kibojoe/pacli;exec bash'"</TrayButton>
   <Spacer width="5"/>
-      <TrayButton icon="/usr/share/icons/kibojoe/jwmconf.svg" popup="JWMConf Configuration Tool">exec:lxterminal --geometry=77x27 --title=JWMConf --command=/usr/bin/kibojoe/jwmconf</TrayButton>
+      <TrayButton icon="/usr/share/icons/kibojoe/jwmconf.svg" popup="JWMConf Configuration Tool">exec:sakura -c 80 -r 27 -T JWMConf -e "bash -c '/usr/bin/kibojoe/jwmconf;exec bash'"</TrayButton>
   <Spacer width="5"/>
-      <TrayButton icon="/usr/share/icons/kibojoe/is.svg" popup="Information System GNU/Linux">exec:lxterminal --geometry=77x27 --title=IS --command=/usr/bin/kibojoe/is</TrayButton>
+      <TrayButton icon="/usr/share/icons/kibojoe/is.svg" popup="Information System GNU/Linux">exec:sakura -c 80 -r 27 -T IS -e "bash -c '/usr/bin/kibojoe/is;exec bash'"</TrayButton>
   <Spacer width="5"/>
-     <TrayButton icon="/usr/share/icons/kibojoe/kdusm.svg" popup="Backup Format USB Tool">exec:lxterminal --geometry=77x16 --title=BFUSBTool --command=/usr/bin/kibojoe/bfusb</TrayButton>
+     <TrayButton icon="/usr/share/icons/kibojoe/kdusm.svg" popup="Backup Format USB Tool">exec:sakura -c 80 -r 16 -T BFUSBTool -e "bash -c '/usr/bin/kibojoe/bfusb;exec bash'"</TrayButton>
   <Spacer width="5"/>
       <TrayButton icon="/usr/share/icons/kibojoe/palemoon.svg" popup="Pale Moon Browser">exec:palemoon</TrayButton>
   <Spacer width="5"/>
