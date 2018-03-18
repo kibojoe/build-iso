@@ -37,7 +37,7 @@
     <Key mask="4" key="r">exec:gmrun</Key>
     <Key mask="4" key="t">exec:lxterminal</Key>
     <Key mask="4" key="d">showdesktop</Key>
-    <Key mask="4" key="m">exec:deadbeef</Key>
+    <Key mask="4" key="m">exec:lxmusic</Key>
     
     <!-- Key system. -->
 	<!-- Windows (Super) key. -->
