@@ -49,7 +49,7 @@ cantarell-fonts
 cbatticon
 conky
 dconf
-lxmusic
+lxmusic-gtk3
 desktop-file-utils
 downgrade
 dunst
@@ -76,7 +76,7 @@ lm_sensors
 lshw
 lxappearance-gtk3
 lxdm-gtk3
-lxinput
+lxinput-gtk3
 manjaro-alsa
 manjaro-pulse
 medit
