@@ -4,10 +4,10 @@ componentName:  kibojoe
 strings:
     productName:         Kibojoe Linux
     shortProductName:    Kibojoe
-    version:             18.02rc4
-    shortVersion:        18.02rc4
-    versionedName:       Kibojoe Linux 18.02rc4 "Vai-Vai"
-    shortVersionedName:  Kibojoe 18.02rc4
+    version:             18.02rc5
+    shortVersion:        18.02rc5
+    versionedName:       Kibojoe Linux 18.02rc5 "Vai-Vai"
+    shortVersionedName:  Kibojoe 18.02rc5
     bootloaderEntryName: Kibojoe
 
 images:
