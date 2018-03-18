@@ -100,7 +100,7 @@ python2-xdg
 qt5-styleplugins 
 qt5ct
 rofi
-sakura
+lxterminal-gtk3
 screenfetch
 scrot
 smartmontools
@@ -112,6 +112,7 @@ xdgmenumaker
 xorg-xrandr
 xorg-xinput
 xsensors
+lxsession-gtk3
 
 # LIST KIBOJOE
 base-skel-kibojoe
@@ -121,4 +122,3 @@ profile-cleaner
 release-kibojoe
 scripts-kibojoe
 wallpapers-kibojoe
-xfce-polkit
