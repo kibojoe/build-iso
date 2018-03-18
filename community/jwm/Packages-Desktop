@@ -49,7 +49,7 @@ cantarell-fonts
 cbatticon
 conky
 dconf
-deadbeef
+lxmusic
 desktop-file-utils
 downgrade
 dunst
@@ -110,6 +110,7 @@ xarchiver
 xautolock
 xdgmenumaker
 xorg-xrandr
+xorg-xinput
 xsensors
 
 # LIST KIBOJOE
