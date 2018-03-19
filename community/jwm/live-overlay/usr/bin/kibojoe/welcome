@@ -13,10 +13,11 @@
 
 while true; do
     clear
-    
+
+echo ""    
 echo -e "                              Kibojoe Linux - Manjaro Linux re-spin with Joe's Window Manager (JWM)"
-    echo ""
-    echo -e "                                                   Minimal, Fast and Elegant!"    
+echo ""
+echo -e "                                                       Minimal, Fast and Elegant!"    
 echo -e " ┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐"
 echo -e " │ Hello, you are using the Live of the Kibojoe Linux!									       │"
 echo -e " │															       │"
